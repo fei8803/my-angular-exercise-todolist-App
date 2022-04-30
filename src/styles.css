@@ -1,0 +1,85 @@
+:root {
+--dark-brown: #523131;
+--brown: #825151;
+--peach: #ffbcbc;
+--darker-pink: #f08fc0;
+--cream: #ffeaca;
+--white: #ffffff;
+
+--hamster: 16px;
+--squirrel: 22px;
+}
+
+body {
+  color: var(--brown);
+  font-size: var(--hamster);
+}
+
+body,button {
+  background-color: var(--white);
+}
+input {
+  border: solid 2px var(--brown);
+  font-size: var(--squirrel);
+  line-height: var(--squirrel);
+  width: 50vw;
+  transition: box-shadow .15s linear;
+}
+
+input:focus {
+  border: solid 2px var(--brown);
+  outline: solid 1px var(--peach);
+  box-shadow: 
+  4px 4px 0px 0px var(--brown),
+  8px 8px 0px 0px var(--peach),
+  12px 12px 0px 0px var(--cream);
+}
+
+button {
+  font-size: var(--squirrel);
+  color: var(--brown);
+  border: 2px solid var(--brown);
+  transition: box-shadow .15s linear
+}
+
+button:focus {
+  border: solid 2px var(--brown);
+  outline: solid 1px var(--peach);
+  box-shadow: 
+  4px 4px 0px 0px var(--brown),
+  8px 8px 0px 0px var(--peach),
+  12px 12px 0px 0px var(--cream);
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+
+text-shadow: 
+0px 0px 0 var(--pink),
+1px 1px 0 #f192c0,
+2px 2px 0 #f091bf,
+3px 3px 0 #f196bf,
+4px 4px 0 #f39abe,
+5px 5px 0 #f6a3be,
+6px 6px 0 #f8a8be,
+7px 7px 0 #fbb0bd,
+8px 8px 0 #fbc4bc,
+9px 9px 0 #feb9bc,
+10px 10px 0 #fcb6bc,
+11px 11px 0 #feb9bc,
+12px 12px 0 #fcb4bc,
+13px 13px 0 #ffc6bf,
+14px 14px 0 #ffccc1,
+15px 15px 0 #ffd0c2,
+16px 16px 0 #ffd5c4,
+17px 17px 0 #ffd9c5,
+18px 18px 0 #ffdfc6,
+19px 19px 0 #ffe8c9,
+20px 20px 0 var(--cream),
+21px 21px 20px rgba(255,223,198,1.000),
+21px 21px  1px rgba(255,223,198, 0.5),
+0px 0px 20px rgba(255,223,198, 0.2);
+
+color: #e771ab;
+}
